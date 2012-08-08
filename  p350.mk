@@ -46,6 +46,10 @@ PRODUCT_COPY_FILES += \
     device/lge/p350/prebuilt/cifs.ko:system/lib/modules/cifs.ko \
     device/lge/p350/prebuilt/fuse.ko:system/lib/modules/fuse.ko \
 
+# Initlogo
+PRODUCT_COPY_FILES += \
+    device/lge/p350/prebuilt/initlogo.rle:root/initlogo.rle
+
 # BT startup
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/init.qcom.bt.sh:system/bin/init.qcom.bt.sh
